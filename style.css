@@ -71,7 +71,7 @@ main {
 	border-bottom: 3px solid #ec715f;
 }
 .portfolio-text {
-	padding: 30px 0;
+	margin: 30px 0;
 	font-size: 16px;
 	color: #000000;
 }
@@ -105,4 +105,41 @@ main {
 }
 .portfolio-image:nth-child(7) {
 	background-image: url(img/talk.jpg);
+}
+.feature-box {
+	width: 980px;
+	padding: 90px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+.feature-headline {
+	font-size: 32px;
+	color: #000000;
+	padding-bottom: 8px;
+	border-bottom: 3px solid #ec715f;
+}
+.feature-text {
+	font-size: 16px;
+	color: #000000;
+	margin: 30px 0;
+}
+.feature-strength {
+	width: 320px;
+	list-style: none;
+	float: left;
+}
+.feature-strength:nth-child(2) {
+	margin: 0 10px;
+}
+i {
+	font-size: 60px;
+}
+.strength-headline {
+	font-size: 20px;
+	color: #000000;
+	margin: 10px 0;
+}
+.strength-text {
+	font-size: 16px;
+	color: #000000;
 }
