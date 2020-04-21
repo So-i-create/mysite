@@ -9,13 +9,23 @@
 <body>
 	<header>
 		<div class="header-box clearfix">
-			<img class="header-logo" src="img/logo.png">
+			<a href="index.html">
+				<img class="header-logo" src="img/logo.png">
+			</a>
 			<nav>
 				<ul class="header-menu">
-					<li class="header-menu-item">Portfolio</li>
-					<li class="header-menu-item">Feature</li>
-					<li class="header-menu-item">Profile</li>
-					<li class="header-menu-item">Contect</li>
+					<li class="header-menu-item">
+						<a href="#portfolio">Portfolio</a>
+					</li>
+					<li class="header-menu-item">
+						<a href="#feature">Feature</a>
+					</li>
+					<li class="header-menu-item">
+						<a href="#portfolio">Profile</a>
+					</li>
+					<li class="header-menu-item">
+						<a href="#contact">Contect</a>
+					</li>
 				</ul>
 			</nav>
 		</div>
@@ -25,9 +35,10 @@
 			<h1 class="main-visual-headline">Lorem Ipsum</h1>
 			<p class="main-visual-text">simply dummy text of the printing</p>
 		</section>
-		<div class="portfolio">
+		<div id="portfolio">
 			<section class="portfolio-box">
 				<h1 class="portfolio-headline">Portfolio</h1>
+				<div class="border"></div>
 				<p class="portfolio-text">
 					It is a long established fact that a reader will be distracted by readable<br>
 					content of a page when looking at its layout.<br>
@@ -43,9 +54,10 @@
 				</ul>
 			</section>
 		</div>
-		<div class="feature">
+		<div id="feature">
 			<section class="feature-box">
 				<h1 class="feature-headline">Feature</h1>
+				<div class="border"></div>
 				<p class="feature-text">
 					It is a long established fact that a reader will be distracted by readable<br>
 					content of a page when looking at its layout.<br>
@@ -53,21 +65,21 @@
 				</p>
 				<ul class="feature-strength-list clearfix">
 					<li class="feature-strength">
-						<i class="far fa-chart-bar"></i>
+						<i class="strength-icon far fa-chart-bar"></i>
 						<h2 class="strength-headline">Strength1</h2>
 						<p class="strength-text">
 							Contrary to popular belief,Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC,making it over 2000 years old.Richard McClintock,a Latin professor at Hampden-Sydney College in Virginia,looked up one of the more obscure Latin words,consectetur
 						</p>
 					</li>
 					<li class="feature-strength">
-						<i class="far fa-file"></i>
+						<i class="strength-icon far fa-file"></i>
 						<h2 class="strength-headline">Strength2</h2>
 						<p class="strength-text">
 							Contrary to popular belief,Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC,making it over 2000 years old.Richard McClintock,a Latin professor at Hampden-Sydney College in Virginia,looked up one of the more obscure Latin words,consectetur
 						</p>
 					</li>
 					<li class="feature-strength">
-						<i class="far fa-folder"></i>
+						<i class="strength-icon far fa-folder"></i>
 						<h2 class="strength-headline">Strength3</h2>
 						<p class="strength-text">
 							Contrary to popular belief,Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC,making it over 2000 years old.Richard McClintock,a Latin professor at Hampden-Sydney College in Virginia,looked up one of the more obscure Latin words,consectetur
@@ -76,6 +88,66 @@
 				</ul>
 			</section>
 		</div>
+		<div id="profile">
+			<section class="profile-box">
+				<h1 class="profile-headline">Profile</h1>
+				<div class="border"></div>
+				<p class="profile-text">
+					It is a long established fact that a reader will be distracted by readable<br>
+					content of a page when looking at its layout.<br>
+					The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+				</p>
+				<ul class="profile-list clearfix">
+					<li class="profile-subbox">
+						<img  class="profile-image" src="img/my-icon.jpg">
+					</li>
+					<li class="profile-subbox">
+						<section class="myname">
+							<h2 class="myname-headline">Myname</h2>
+							<p class="myname-text">
+								Contrary to popular belief,Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC,making it over 2000 years old.Richard McClintock,a Latin professor at Hampden-Sydney College in Virginia,looked up one of the more obscure Latin words,consectetur
+							</p>
+						</section>
+						<section class="myskills">
+							<h2 class="myskills-headline">Myskills</h2>
+							<p class="myskills-text">
+								HTML/CSS/Javascript/JQuery/Photoshop
+							</p>
+						</section>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<div id="contact">
+			<section class="contact-box">
+				<h1 class="contact-headline">Contact</h1>
+				<div class="border"></div>
+				<p class="contact-text">
+					It is a long established fact that a reader will be distracted by readable<br>
+					content of a page when looking at its layout.<br>
+					The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+				</p>
+				<ul class="contact-list clearfix">
+					<li class="contact-subbox">
+						<h2 class="item-headline">Mail</h2>
+						<p class="mail-text">xxx@xxx.com</p>
+						<h2 class="item-headline">Tel</h2>
+						<p class="tel-text">000-0000-0000</p>
+					</li>
+					<li class="contact-subbox">
+						<section class="sns-box">
+							<h2 class="item-headline sns">SNS</h2>
+							<i class="sns-icon fab fa-facebook-f"></i>
+							<i class="sns-icon twitter fab fa-twitter"></i>
+							<i class="sns-icon fab fa-instagram"></i>
+						</section>
+					</li>
+				</ul>
+			</section>
+		</div>
 	</main>
+	<footer>
+		<p class="footer-text">©2017 Webcamp</p>
+	</footer>
 </body>
 </html>

@@ -8,6 +8,10 @@
 	display: block;
 	clear: both;
 }
+a {
+	color: #fafafa;
+	text-decoration: none;
+}
 header {
 	width: 100%;
 	height: 70px;
@@ -68,7 +72,12 @@ main {
 	font-size: 32px;
 	color: #000000;
 	padding-bottom: 8px;
-	border-bottom: 3px solid #ec715f;
+}
+.border {
+	width: 70px;
+	height: 3px;
+	background-color: #ec715f;
+	margin: 0 auto;
 }
 .portfolio-text {
 	margin: 30px 0;
@@ -116,7 +125,6 @@ main {
 	font-size: 32px;
 	color: #000000;
 	padding-bottom: 8px;
-	border-bottom: 3px solid #ec715f;
 }
 .feature-text {
 	font-size: 16px;
@@ -131,7 +139,7 @@ main {
 .feature-strength:nth-child(2) {
 	margin: 0 10px;
 }
-i {
+.strength-icon {
 	font-size: 60px;
 }
 .strength-headline {
@@ -142,4 +150,110 @@ i {
 .strength-text {
 	font-size: 16px;
 	color: #000000;
+}
+.profile {
+	background-color: #eceff1;
+}
+.profile-box {
+	width: 1024px;
+	padding: 90px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+.profile-headline {
+	font-size: 32px;
+	color: #000000;
+	padding-bottom: 8px;
+}
+.profile-text {
+	font-size: 16px;
+	color: #000000;
+	margin: 30px 0;
+}
+.profile-subbox{
+	width: 512px;
+	float: left;
+	list-style: none;
+}
+.profile-subbox:nth-child(1) {
+	text-align: center;
+}
+.profile-subbox:nth-child(2) {
+	text-align: left;
+}
+.profile-image{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+.myname {
+	margin-bottom: 20px;
+}
+.myname-headline {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.myname-text {
+	font-size: 16px;
+	color: #000000;
+}
+.myskills-headline {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.myskills-text {
+	font-size: 16px;
+	color: #000000;
+}
+.contact-box {
+	width: 800px;
+	padding: 90px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+.contact-headline {
+	font-size: 32px;
+	color: #000000;
+	padding-bottom: 8px;
+}
+.contact-text {
+	font-size: 16px;
+	color: #000000;
+	margin: 30px 0;
+}
+.contact-subbox{
+	width: 400px;
+	float: left;
+	list-style: none;
+}
+.item-headline {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.mail-text {
+	margin-bottom: 20px;
+}
+.sns-box{
+	width: 200px;
+	margin: 0 auto;
+}
+.sns {
+	text-align: left;
+}
+.sns-icon {
+	font-size: 50px;
+}
+.twitter {
+	margin: 0 20px 0 20px;
+}
+footer {
+	width: 100%;
+	height: 60px;
+	padding-top: 20px;
+	background-color: #ec715f;
+}
+.footer-text {
+	font-size: 16px;
+	color: #fafafa;
+	text-align: center;
 }
