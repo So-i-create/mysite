@@ -269,7 +269,7 @@ footer {
 
 @media screen and (max-width: 768px) {
 	body {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 	}
 	header {
@@ -341,7 +341,7 @@ footer {
 		margin: 10px 0;
 	}
 	.profile-box {
-		width: 100%;
+		width: 90%;
 	}
 	.profile-subbox {
 		float: none;
